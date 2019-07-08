@@ -1,0 +1,159 @@
+/* Style Sheet for RunFarStudios.com */
+
+@font-face {
+    font-family: 'dinregularalternate';
+    src: url('assets/fonts/dinregularalternate/din_alternate_regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/dinregularalternate/din_alternate_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    color: white;
+    margin-top:0;
+    min-width: 1024px;
+    background-color: rgb(216, 215, 215);
+    
+}
+#header{
+    
+    width: 1024px;
+    height: 80px;
+    background-color: black;
+    margin: auto;
+    padding-top: 0;
+
+}
+
+
+h1{
+    font-family: din-2014, sans-serif;
+    margin-top: 10px;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 50px;
+    font-weight: 1000;
+}
+h2{
+    font-family: din-2014, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    padding: 0;
+    height: 40px;
+    margin: 0;
+}
+h3{
+    margin: 0;
+    font-size: 30px;
+}
+p{
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 20px;
+}
+.welcometext{
+    margin-left: 532px;
+    margin-top: 207px;
+    font-size: 40px;
+
+}
+#header img{
+    padding: 7px;
+    padding-left: 18px;
+}
+#welcome{
+    width: 1024px;
+    height: 360px;
+    background: url(images/bg.png);
+    background-size: 1024px;
+    margin: auto;
+    font-weight: bold;
+}
+#bodycontent{
+    width: 1024px;
+    height: max-content;
+    background-color: lightblue;
+    margin: auto;
+    margin-bottom: 0px;
+    justify-content: space-around;
+}
+#contentarea{
+    width: 940px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    height: max-content;
+    background-color: white;
+    border-top: black solid 5px;
+}
+#footer{
+    width: 1024px;
+    background-color: black;
+    height: 210px;
+    margin:auto;
+    margin-top: 0;
+}
+.contentcontainer{
+    color: rgb(192, 189, 189);
+    border-top: 2px;
+    border-color: rgb(230, 230, 230);
+    border-style: solid;
+    border-top: none;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contentblock{
+    margin: 10px;
+    width: 250px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+#nav{
+    margin-right: 30px;
+}
+#header a{
+    font-family: din-2014, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    font-size: 30px;
+    display: block;
+    background-color: black;
+    text-decoration: none;
+}
+#header a:link{
+    color: white;
+}
+#header a:visited{
+    color: white;
+}
+#header a:hover{
+    color: black;
+    background-color: white;
+}
+#header a:active{
+    color: black;
+    background-color: white;
+}
+
+#contentarea a{
+    background-color: black;
+    color: white;
+    
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+}
+
+
