@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/
+    - export DEPLOYPATH=/home/runfarst/public_html/
     - /bin/cp -R images $DEPLOYPATH
     #deploys entire repository to cPanel for hosting
