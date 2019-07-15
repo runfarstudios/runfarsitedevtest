@@ -1,0 +1,21 @@
+#header{
+    /*background-color: gold;*/
+}
+#welcome{
+    /*background-color: red;*/
+}
+#services{
+    /*background-color: gold;*/
+    margin-top: 10px;
+}
+#past-work{
+    margin-top: 10px;
+    /*background-color: red;*/
+}
+#footer{
+    background-color: black;
+    color: white;
+}
+body{
+    /*background-color: gold;*/
+}
